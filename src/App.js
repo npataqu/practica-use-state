@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import CounterApp from './Component/CounterApp';
+import ConditionalApp from './Component/ConditionalApp';
+import ErrorApp from './Component/ErrorApp';
+import ProductApp from './Component/ProductApp';
+import ShoppingCart from './Component/ShoppingCart';
+import ListProducts from './Component/ListProducts';
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      {/*<CounterApp />*/}
+      {/*<ConditionalApp/>*/}
+      {/*<ErrorApp/>*/}
+      {/*<ProductApp/>*/}
+      {/*<ShoppingCart/>*/}
+      <ListProducts />
     </div>
   );
 }
+
 
 export default App;
